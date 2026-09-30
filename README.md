@@ -54,3 +54,7 @@ The research question is: **Which volunteer recruitment or donation-campaign coo
 ## Disclaimer
 
 Not affiliated with or endorsed by NBTS, Sri Lanka's Ministry of Health or any hospital. Never enter real donor/patient data in this public research demonstration.
+
+## Research concept note
+
+Read the [two-page research concept note](docs/RESEARCH_CONCEPT_NOTE.md) for the problem statement, objectives, proposed methodology, expected outputs and ethical safeguards. This is a preliminary research document, not an approved protocol.

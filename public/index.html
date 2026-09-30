@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#701d2c">
+  <meta name="description" content="Sri Lanka Blood Connect — fictional, open-source multi-hospital donor coordination research prototype.">
+  <title>Sri Lanka Blood Connect · Research Demo</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="research-banner" role="note" id="research-notice">RESEARCH DEMONSTRATION · FICTIONAL DATA ONLY · NOT FOR CLINICAL USE</div>
+  <div class="page">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">♥</span>
+        <div><div class="brand-title">Sri Lanka Blood Connect</div><div class="brand-sub">Open research · Jaffna to all-island</div></div>
+      </div>
+      <div class="top-actions">
+        <span class="demo-dot">● <span id="mode-label">Read-only demo</span></span>
+        <label for="language" class="sr-only">Interface language</label>
+        <select id="language" aria-label="Interface language">
+          <option value="en">English</option><option value="ta">தமிழ்</option><option value="si">සිංහල</option>
+        </select>
+      </div>
+    </header>
+    <section class="hero" aria-labelledby="hero-title">
+      <div><div class="eyebrow">🩸 RESEARCH PROTOTYPE / 01</div>
+      <h1 id="hero-title">A connected future for voluntary blood donation</h1>
+      <p id="hero-description">Explore a fictional network of hospitals, volunteer clubs and donor outreach campaigns. This demonstration does not collect personal data.</p>
+      <div class="hero-tags"><span>Multi-centre</span><span>Community outreach</span><span>Cloudflare Workers + D1</span></div>
+      </div>
+      <div class="hero-card"><span class="pulse-heart" aria-hidden="true">♥</span><strong>One connected network</strong><small>Five illustrative centres · No clinical workflows</small></div>
+    </section>
+    <section class="metrics" id="metrics" aria-label="Research demonstration metrics" aria-live="polite"></section>
+    <section class="panel">
+      <div class="section-heading">
+        <div><span class="kicker" id="explore-label">EXPLORE THE NETWORK</span><h2 id="section-title">Research workspace</h2></div>
+        <span class="small-tag" id="mock-tag">SIMULATED RECORDS</span>
+      </div>
+      <div class="filters">
+        <div class="form-field"><label id="hospital-label" for="hospital">Research centre</label><select id="hospital"></select></div>
+        <div class="form-field"><label id="district-label" for="district">District</label><select id="district"></select></div>
+        <div class="form-field"><label id="group-label" for="blood_group">Blood group</label><select id="blood_group"></select></div>
+      </div>
+      <nav class="tabs" id="tabs" aria-label="Research data views"></nav>
+      <div id="results" aria-live="polite"><p class="loading">Loading fictional research records…</p></div>
+    </section>
+    <section class="disclaimer" aria-label="Scope and safety disclaimer">
+      <div class="disclaimer-icon" aria-hidden="true">ⓘ</div>
+      <div><strong id="safety-title">Research-only system</strong>
+        <p id="safety-copy">No real donors, patient cases, hospital approvals or medical eligibility determinations. A hospital's selection here is a display filter, not an authenticated account.</p>
+      </div>
+    </section>
+    <footer><span>© 2026 Sri Lanka Blood Connect Research · Independent prototype</span><a href="https://github.com/Gajarthan/Sri-Lanka-Blood-Connect" target="_blank" rel="noopener noreferrer">Source code ↗</a></footer>
+  </div>
+</body>
+</html>

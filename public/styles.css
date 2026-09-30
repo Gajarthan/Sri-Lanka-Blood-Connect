@@ -1,0 +1,64 @@
+@import url();
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#262830;background:#f5f5f7;font-synthesis:none}
+*{box-sizing:border-box}
+body{margin:0}
+a{color:inherit}
+button,select{font:inherit}
+button{cursor:pointer}
+.research-banner{background:#721e30;color:white;padding:10px 16px;text-align:center;font-size:11px;letter-spacing:.12em;font-weight:800}
+.page{max-width:1280px;margin:0 auto;padding:0 28px}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:25px 0}
+.brand{display:flex;gap:12px;align-items:center}
+.brand-mark{width:48px;height:48px;border-radius:16px;background:#962a40;color:white;display:grid;place-items:center;font-size:34px;box-shadow:0 8px 20px #962a4025}
+.brand-title{font-weight:900;letter-spacing:-.04em;font-size:19px}
+.brand-sub{font-size:12px;color:#898c96;margin-top:2px}
+.top-actions{display:flex;align-items:center;gap:16px}
+.demo-dot{font-size:12px;font-weight:700;color:#316a59;background:#ebf6ef;padding:9px 12px;border-radius:50px}
+.top-actions select{border:1px solid #dce0e6;background:white;border-radius:10px;padding:9px 11px;color:#383c42}
+.hero{background:linear-gradient(120deg,#641728,#9a2b44);min-height:255px;border-radius:24px;color:white;padding:37px 42px;display:flex;align-items:center;justify-content:space-between;gap:40px;box-shadow:0 24px 48px #74243b16;overflow:hidden;position:relative}
+.hero::after{content:"";position:absolute;right:-70px;top:-115px;width:375px;height:375px;border:1px solid #ffffff20;border-radius:50%;pointer-events:none}
+.eyebrow{font-size:11px;letter-spacing:.18em;font-weight:800;color:#f4c9d2}
+h1{font-size:clamp(27px,3.5vw,41px);line-height:1.16;letter-spacing:-.06em;max-width:660px;margin:13px 0 13px}
+.hero p{max-width:640px;font-size:14px;color:#f4dade;line-height:1.7;margin:0}
+.hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:21px}
+.hero-tags span{font-size:11px;border:1px solid #ffffff48;background:#ffffff13;padding:7px 10px;border-radius:999px;color:#fff}
+.hero-card{border:1px solid #ffffff35;background:#ffffff12;backdrop-filter:blur(8px);border-radius:20px;padding:24px;width:236px;min-width:215px;position:relative;z-index:1;display:flex;flex-direction:column;gap:8px;align-items:center;text-align:center}
+.hero-card strong{font-size:15px}
+.hero-card small{color:#f9dbe2;font-size:11px;line-height:1.5}
+.pulse-heart{font-size:66px;line-height:1;color:#f8d2df;text-shadow:0 0 24px #ffffff66;margin-bottom:4px}
+.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px;margin:23px 0}
+.metric{padding:22px 24px;background:#fff;border:1px solid #ecebef;border-radius:17px;display:flex;flex-direction:column;gap:7px;box-shadow:0 7px 20px #14192305}
+.metric-number{font-size:35px;font-weight:900;letter-spacing:-.05em;color:#721e30}
+.metric-label{font-size:12px;font-weight:650;color:#6f737d}
+.panel{background:#fff;border:1px solid #ecebef;border-radius:19px;padding:25px 27px;box-shadow:0 7px 24px #14192304}
+.section-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:22px}
+.kicker{font-size:10px;font-weight:800;color:#a72d48;letter-spacing:.17em}
+h2{font-size:23px;letter-spacing:-.045em;margin:5px 0 0}
+.small-tag{border-radius:999px;padding:8px 11px;background:#fff2f4;color:#912d45;font-weight:800;font-size:10px;letter-spacing:.06em}
+.filters{display:grid;grid-template-columns:2fr 1fr 1fr;gap:16px}
+.form-field{display:flex;flex-direction:column;gap:8px}
+.form-field label{font-size:12px;font-weight:750;color:#59616f}
+.form-field select{width:100%;border:1px solid #dfe2e8;background:#fff;border-radius:10px;padding:12px;min-height:46px;color:#292d35}
+.form-field select:disabled{background:#f3f3f4;color:#93949a}
+:focus-visible{outline:3px solid #b94363;outline-offset:2px}
+.tabs{display:flex;overflow-x:auto;gap:7px;border-bottom:1px solid #e9e9ee;margin-top:22px;padding-bottom:0}
+.tab{background:transparent;color:#717782;border:0;border-bottom:3px solid transparent;padding:14px 18px 12px;white-space:nowrap;font-size:13px;font-weight:700}
+.tab:hover{color:#81283f}
+.tab.is-active{color:#83223b;border-color:#9c2945}
+.table-scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px;min-width:650px}
+th{text-align:left;color:#777d86;font-size:11px;text-transform:uppercase;letter-spacing:.06em;padding:17px 15px;background:#faf9fa;font-weight:800}
+td{padding:17px 15px;border-top:1px solid #f1f0f2;color:#31343b;line-height:1.45}
+tbody tr:hover{background:#fefafb}
+.pill{display:inline-block;padding:5px 10px;color:#8a2240;background:#fcebf0;border-radius:999px;font-size:11px;font-weight:750}
+.loading,.empty,.error{padding:45px;text-align:center;color:#7b818c;font-size:14px}
+.error{color:#9c1c36}
+.disclaimer{display:flex;gap:13px;align-items:flex-start;background:#fdf4e6;border:1px solid #f3e4c9;border-radius:14px;padding:18px 21px;margin-top:22px;color:#64492b}
+.disclaimer-icon{font-size:22px;line-height:1}
+.disclaimer strong{font-size:13px}
+.disclaimer p{font-size:12px;line-height:1.65;margin:5px 0 0}
+footer{display:flex;justify-content:space-between;gap:16px;font-size:12px;color:#8d929a;padding:24px 0 32px}
+footer a{text-decoration:none;color:#91354b;font-weight:700}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+@media(max-width:850px){.hero-card{display:none}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.filters{grid-template-columns:1fr 1fr}.filters .form-field:first-child{grid-column:span 2}}
+@media(max-width:520px){.page{padding:0 15px}.topbar{padding:18px 0}.brand-title{font-size:14px}.brand-sub{font-size:10px}.brand-mark{width:40px;height:40px}.demo-dot{display:none}.hero{padding:24px;min-height:260px;border-radius:17px}h1{font-size:28px}.hero-tags span{font-size:10px}.metrics{gap:9px;margin:14px 0}.metric{padding:18px 16px}.metric-number{font-size:28px}.panel{padding:17px 15px}.section-heading{align-items:flex-start}.small-tag{display:none}.filters{display:flex;flex-direction:column;gap:11px}footer{flex-direction:column;gap:6px}}
